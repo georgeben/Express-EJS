@@ -10,7 +10,7 @@
   "author": "George Benjamin",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
+    "ejs": "^2.6.2",
     "express": "^4.16.4",
     "nodemon": "^1.18.6"
   }
