@@ -18,7 +18,7 @@ app.get("/", (req, res) =>{
         steps: ["This is my awesome express app",
         "This is my awesome express app",
         "This is my awesome express app",],
-        title:"How to build an octocat"
+        title:"How to build an octocat. Wow! We've come a long way!"
     })
 });
 
@@ -43,4 +43,4 @@ app.use((req, res) =>{
     res.send("Page not found");
 });
 
-http.createServer(app).listen(3000);
+http.createServer(app).listen(process.env.PORT || 3000);
